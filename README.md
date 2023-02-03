@@ -26,44 +26,43 @@ Library Management System spring boot application
 - Maven (used as a dependency management tool.)
 
 
-## Backend Design 
-### Entities 
-Actors/Entities are inspired by the real world entities that can use the applications  
-1. **Student** having attributes:
-* unique primary key student_id, country, emailId, name, age, card_id(foreign key) 
-2. **Card** having attributes:
-* unique primary key card_id, createdOn, updatedOn, status(ACTVATED/DEACTIVATED)
-3. **Book** having attributes:
-* Unique primary key book_id, isAvailable(True/False), genre, author_id(foreign key) 
-4. **Author** having attributes:
-* unique primary key author_id, country, name, emailId
-5. **User** used mainly for authentication and authorization has attributes:
-* unique primary key user_id, Authorization--> (STUDENT/ADMIN or BOTH), Username(emailId for student), Password. 
+##  ER Diagram
+
+![Er diagram](https://user-images.githubusercontent.com/103572468/203549421-6bb9fb58-bfc7-4863-8be5-7b4658494f07.jpeg)
 
 
-
-# Installation & Run
- - Before running the API server, you should update the database config inside the application.properties file.
+## Installation & Run
+- Before running the API server, you should update the database config inside the application.properties file.
 - Update the port number, username and password as per your local database configuration.
 
 ```
-    server.port=8081
+    server.port=8080
 
-    spring.datasource.url=jdbc:mysql://localhost:3306/food;
+    spring.datasource.url=jdbc:mysql://localhost:3306/library_management_system_database;
     spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
     spring.datasource.username=root
     spring.datasource.password=root
 ```
 
 # API Root Endpoint
+- To borrow a book
 ```
-https://localhost:8800/
+PUT "http://localhost:8080/users/books/{userid}/{bookid}"
 ```
+-To return a book
 ```
-http://localhost:8800/swagger-ui/
+PUT "http://localhost:8080/users/books/return/{userid}/{bookid}"
 ```
-# ER Diagram
-![Er diagram](https://user-images.githubusercontent.com/103572468/203549421-6bb9fb58-bfc7-4863-8be5-7b4658494f07.jpeg)
+-You can also check through swagger ui
+```
+http://localhost:8080/swagger-ui/
+```
+##To check apis manually
+
+
+## Limitations or Features which can implements in future work
+
+
 
 
 
