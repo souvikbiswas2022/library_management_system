@@ -44,7 +44,7 @@ Library Management System spring boot application
     spring.datasource.password=root
 ```
 
-# API Root Endpoint
+## API Root Endpoint
 - To borrow a book
 ```
 PUT "http://localhost:8080/users/books/{userid}/{bookid}"
@@ -57,8 +57,10 @@ PUT "http://localhost:8080/users/books/return/{userid}/{bookid}"
 ```
 http://localhost:8080/swagger-ui/
 ```
-##To check apis manually
 
+
+
+## To check apis manually
 
 ## Limitations or Features which can implements in future work
 
