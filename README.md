@@ -53,6 +53,7 @@ This library management api build to manage the book records and user records in
 ![book](https://user-images.githubusercontent.com/101393689/216522921-471489b6-110e-4fdd-bfde-12031613f243.png)
 
 -Description of books_authors table
+
 ![books_authors](https://user-images.githubusercontent.com/101393689/216522989-63ce97cf-e273-486d-8187-e9f1b10eb271.png)
 
 -Description of categories table 
@@ -62,6 +63,7 @@ This library management api build to manage the book records and user records in
 -Description of  users table 
 
 ![users](https://user-images.githubusercontent.com/101393689/216524459-dcf0885a-1034-4c8f-a8c5-3d5619616c59.png)
+
 
 ## Installation & Run
 - Before running the API server, you should update the database config inside the application.properties file.
