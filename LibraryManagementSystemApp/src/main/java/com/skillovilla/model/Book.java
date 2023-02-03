@@ -11,6 +11,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
@@ -49,7 +50,7 @@ public class Book implements Serializable {
 	
 	
 	@JsonIgnore
-	@OneToMany(cascade = CascadeType.ALL)
+	@ManyToMany(cascade = CascadeType.ALL)
 	@JoinColumn(name = "author_id")
 	@NotNull(message = "Please select author...!")
 	private List<Author> authors;
@@ -68,7 +69,7 @@ public class Book implements Serializable {
 	@NotNull(message = "Please select category...!")
 	private Category category;
 	
-	//
+
 	
 	@Column(name="status")
 	private Boolean status;
@@ -81,6 +82,6 @@ public class Book implements Serializable {
 	@ManyToOne(cascade = CascadeType.ALL )
 	private User user;
 	
-	//
+	
 	
 }
