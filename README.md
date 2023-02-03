@@ -16,26 +16,29 @@ Library Management System spring boot application
 - A user can return a book easily. 
 - It will calculate fine( 50 rupees file per day) if user returned the book after due date .
 
-## Tech Stack
-- Java
-- Spring Boot
-- Spring Data JPA
-- MySQL
-- Swagger UI
-- Lambok
-- Maven
-
-
 ## Technologies and Dependencies Used
-* [Maven](https://maven.apache.org/) used as a dependency management tool.
-* [Spring Boot](https://spring.io/projects/spring-boot) used to build hassle free web applications and writing REST APIs.
-* [Spring data JPA (Hibernate)](https://hibernate.org/) Used to reduce the time of writing hardcoded sql queries and instead allows to write much more readable and  scalable code 
-* [MySQL](https://www.mysql.com/) used as a Java persistence store
-* [Project Lombok](https://projectlombok.org/) Reduces the time  of writing java boiler plate code.
+- Java (Efficient language to handle backend operations)
+- Spring Boot (used to build hassle free web applications and writing REST APIs.)
+- Spring Data JPA (Used to reduce the time of writing hardcoded sql queries and instead allows to write much more readable and  scalable code )
+- MySQL (used as a Java persistence store)
+- Swagger UI (Used to visualize and interact with the API’s resources without having any of the implementation logic in place.)
+- Lambok  (Reduces the time  of writing java boiler plate code.)
+- Maven (used as a dependency management tool.)
 
 
-
-
+## Backend Design 
+### Entities 
+Actors/Entities are inspired by the real world entities that can use the applications  
+1. **Student** having attributes:
+* unique primary key student_id, country, emailId, name, age, card_id(foreign key) 
+2. **Card** having attributes:
+* unique primary key card_id, createdOn, updatedOn, status(ACTVATED/DEACTIVATED)
+3. **Book** having attributes:
+* Unique primary key book_id, isAvailable(True/False), genre, author_id(foreign key) 
+4. **Author** having attributes:
+* unique primary key author_id, country, name, emailId
+5. **User** used mainly for authentication and authorization has attributes:
+* unique primary key user_id, Authorization--> (STUDENT/ADMIN or BOTH), Username(emailId for student), Password. 
 
 
 
