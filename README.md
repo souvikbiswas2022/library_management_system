@@ -5,22 +5,18 @@ Library Management System spring boot application
 ![Library Management System(jpg)](https://www.skoolbeep.com/blog/wp-content/uploads/2020/12/WHAT-IS-THE-PURPOSE-OF-A-LIBRARY-MANAGEMENT-SYSTEM-min.png)
 
 
-# About
+## About
 <li>This libary management api build to manage the book records and user records in the database and to use those data according to need.  </li>
 
 
-# Collaborators
-
-- [Souvik Biswas](https://github.com/souvikbiswas2022)
-
-# Features
+## Features
 
 - A user can borrow a book easily and user will get the due date.
 - It will restrict a perticuler user to borrow more then 5 books.
 - A user can return a book easily. 
 - It will calculate fine( 50 rupees file per day) if user returned the book after due date .
 
-# Tech Stack
+## Tech Stack
 - Java
 - Spring Boot
 - Spring Data JPA
@@ -30,14 +26,13 @@ Library Management System spring boot application
 - Maven
 
 
-## Modules
+## Technologies and Dependencies Used
+* [Maven](https://maven.apache.org/) used as a dependency management tool.
+* [Spring Boot](https://spring.io/projects/spring-boot) used to build hassle free web applications and writing REST APIs.
+* [Spring data JPA (Hibernate)](https://hibernate.org/) Used to reduce the time of writing hardcoded sql queries and instead allows to write much more readable and  scalable code 
+* [MySQL](https://www.mysql.com/) used as a Java persistence store
+* [Project Lombok](https://projectlombok.org/) Reduces the time  of writing java boiler plate code.
 
-- Login Module
-- Restaurant owner Module
-- Customer Module
-- Category Module
-- FoodCart Module
-- Order and Bill Module
 
 
 
