@@ -94,13 +94,6 @@ http://localhost:8080/swagger-ui/
 
 
 
-## To check apis manually
-
--
-
-
-
-
 
 
 
