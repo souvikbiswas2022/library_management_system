@@ -32,7 +32,31 @@ This library management api build to manage the book records and user records in
 ![Screenshot (3619)](https://user-images.githubusercontent.com/101393689/216521400-db6a6e42-1e5d-4e01-9f4d-a7fc24eb6fbe.png)
 
 
-###  ER Diagram
+###  Tables in database
+
+![Screenshot_20230203_111209](https://user-images.githubusercontent.com/101393689/216522113-c9282cb9-72f1-4f6c-9caa-737c3c2a4d7f.png)
+
+-Description of address table
+
+![address](https://user-images.githubusercontent.com/101393689/216522711-27f944a3-bf70-43a2-a179-0fd79fa3c8aa.png)
+
+-Description of authors table
+![author](https://user-images.githubusercontent.com/101393689/216522767-035cc20e-05d4-4551-aa9b-a6c34c0451ab.png)
+
+-Description of authors_books_published table
+![authors_books_published](https://user-images.githubusercontent.com/101393689/216522816-a05956e5-6a43-4945-a48a-52307fa23348.png)
+
+-Description of books table
+![book](https://user-images.githubusercontent.com/101393689/216522921-471489b6-110e-4fdd-bfde-12031613f243.png)
+
+-Description of books_authors table
+![books_authors](https://user-images.githubusercontent.com/101393689/216522989-63ce97cf-e273-486d-8187-e9f1b10eb271.png)
+
+-Description of categories table 
+![categories](https://user-images.githubusercontent.com/101393689/216524364-0ab360b6-4a18-46f8-91e4-f8843fbe5d0f.png)
+
+-Description of  users table 
+![users](https://user-images.githubusercontent.com/101393689/216524459-dcf0885a-1034-4c8f-a8c5-3d5619616c59.png)
 
 ## Installation & Run
 - Before running the API server, you should update the database config inside the application.properties file.
