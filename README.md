@@ -1,7 +1,6 @@
-# library_management_system
-Library Management System spring boot application
 
 # Library Management System
+Library Management System spring boot application
 
 ![Library Management System(jpg)](https://www.skoolbeep.com/blog/wp-content/uploads/2020/12/WHAT-IS-THE-PURPOSE-OF-A-LIBRARY-MANAGEMENT-SYSTEM-min.png)
 
