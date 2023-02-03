@@ -6,7 +6,7 @@ Library Management System spring boot application
 
 
 ## About
-This library management api build to manage the book records and user records in the database and to use those data according to need. 
+This library management api build to manage the book records and user records and all activity  in the database which make a hassle free management . 
 
 
 ## Features
