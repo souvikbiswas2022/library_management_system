@@ -1,6 +1,7 @@
 package com.skillovilla.model;
 
 import java.io.Serializable;
+import java.time.LocalDate;
 import java.util.List;
 
 import javax.persistence.CascadeType;
@@ -67,8 +68,19 @@ public class Book implements Serializable {
 	@NotNull(message = "Please select category...!")
 	private Category category;
 	
+	//
+	
+	@Column(name="status")
+	private Boolean status;
 	
 	
+	@Column(name="issued_date")
+	private LocalDate issuedDate;
 	
+	@JsonIgnore
+	@ManyToOne(cascade = CascadeType.ALL )
+	private User user;
+	
+	//
 	
 }
