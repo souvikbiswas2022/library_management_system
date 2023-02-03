@@ -28,7 +28,8 @@ This library management api build to manage the book records and user records in
 ## Backend Design 
 ###  ER Diagram
 
-[ER Diagram.pptx](https://github.com/souvikbiswas2022/library_management_system/files/10575859/ER.Diagram.pptx)
+
+![Screenshot (3619)](https://user-images.githubusercontent.com/101393689/216521400-db6a6e42-1e5d-4e01-9f4d-a7fc24eb6fbe.png)
 
 
 ###  ER Diagram
