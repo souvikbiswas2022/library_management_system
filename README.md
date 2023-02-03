@@ -64,6 +64,28 @@ This library management api build to manage the book records and user records an
 
 ![users](https://user-images.githubusercontent.com/101393689/216524459-dcf0885a-1034-4c8f-a8c5-3d5619616c59.png)
 
+###  Packages and classes
+
+#### classes in Controller package
+- BookCotroller class
+
+#### Classes in Exception package
+
+- BookException 
+- ErrorDetails
+- GlobalException
+- UserException
+- AddressException
+
+#### Classes in Repository packag
+
+- BookRepo 
+- UserRepo
+
+#### Classes and Interfaces in Service packag
+
+- BookService(I)
+- BookServiceImpl(C)
 
 ## Installation & Run
 - Before running the API server, you should update the database config inside the application.properties file.
