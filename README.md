@@ -25,11 +25,13 @@ This library management api build to manage the book records and user records in
 - Lambok  (Reduces the time  of writing java boiler plate code.)
 - Maven (used as a dependency management tool.)
 
+## Backend Design 
+###  ER Diagram
 
-##  ER Diagram
+[ER Diagram.pptx](https://github.com/souvikbiswas2022/library_management_system/files/10575859/ER.Diagram.pptx)
 
-![Er diagram](https://user-images.githubusercontent.com/103572468/203549421-6bb9fb58-bfc7-4863-8be5-7b4658494f07.jpeg)
 
+###  ER Diagram
 
 ## Installation & Run
 - Before running the API server, you should update the database config inside the application.properties file.
@@ -62,8 +64,17 @@ http://localhost:8080/swagger-ui/
 
 ## To check apis manually
 
-## Limitations or Features which can implements in future work
+-
 
+
+
+
+
+
+
+## Limitations or Features which can implements in future work
+-Spring Security (used for Authentication and Authorization )
+-Unit Test (Used to check apis are working fine or not)
 
 
 
