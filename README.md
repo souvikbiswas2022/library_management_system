@@ -5,22 +5,20 @@ Library Management System spring boot application
 ![Library Management System(jpg)](https://www.skoolbeep.com/blog/wp-content/uploads/2020/12/WHAT-IS-THE-PURPOSE-OF-A-LIBRARY-MANAGEMENT-SYSTEM-min.png)
 
 
-# REST APIs for Library Management System
-<li>We have developed this REST API for an Online Food Booking application. This API performs
-  all the fundamental CRUD operations of any Online Food Booking platform with user validation at every step.</li>
-<li>This project is developed by team of 4 Back-end Developers during project week in Masai School.</li>
+# About
+<li>This libary management api build to manage the book records and user records in the database and to use those data according to need.  </li>
 
-
-
-
-### This is a collaborative project, completed by a team of 4 Java backend developers at Masai School.
 
 # Collaborators
 
-- [Vikram Chaurasia](https://github.com/vikram0976)
 - [Souvik Biswas](https://github.com/souvikbiswas2022)
-- [Maheshwar Sahni](https://github.com/maheshwar7667291394)
-- [Rahul Kumar](https://github.com/Rahul9332935)
+
+# Features
+
+- A user can borrow a book easily and user will get the due date.
+- It will restrict a perticuler user to borrow more then 5 books.
+- A user can return a book easily. 
+- It will calculate fine( 50 rupees file per day) if user returned the book after due date .
 
 # Tech Stack
 - Java
@@ -31,7 +29,8 @@ Library Management System spring boot application
 - Lambok
 - Maven
 
-# Modules
+
+## Modules
 
 - Login Module
 - Restaurant owner Module
@@ -40,9 +39,7 @@ Library Management System spring boot application
 - FoodCart Module
 - Order and Bill Module
 
-# Features
 
-- Data Authentication and Validation for all the users (Restaurnat owner, Customer)
 
 
 
